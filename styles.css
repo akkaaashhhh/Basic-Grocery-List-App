@@ -1,9 +1,12 @@
+*{
+    user-select: none;
+}
+
 html, body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    background-color: #EEF0F4;
-    
+    background-color: white ;
 }
 
 .container{
@@ -43,3 +46,42 @@ img{
     text-align: center;
     font-family: 'Rubik', sans-serif;
 }
+
+#add-button:hover{
+    background-color: rgb(208, 80, 80);
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+ul li {
+    background-color: #FFFDF8;
+    padding: 15px;
+    border-radius: 20px; 
+    flex-grow: 1;
+    text-align: center;
+    font: 'Rubik', sans-sherif;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2) 
+}
+
+.EmptyListText{
+    font: 'Rubik', sans-sherif;
+    font-size: 30px;
+    opacity: 0.3;
+}
+
+ul li:hover{
+    color: white;
+    background-color: #e79caa;
+    cursor: pointer;
+}
+
